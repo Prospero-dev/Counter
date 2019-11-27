@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="select.css">
+	<link rel="stylesheet" type="text/css" href="Boots/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	
+	<title>project</title>
+</head>
+<body>
+	<!-- <center> -->
+		<div class="row" >
+		<div class="container-fluid">		
+		<div class="col-sm-5" id="body">
+				<div class="nav navbar-expand-sm bg-primary" id="set" style="width: 1200px; height: 70px; margin-right:500px; margin: 20px;">		
+						<button onclick="menu()" style="border: none; background-color: black; color: white; font-size: 20px; padding: 20px 26px;"> <i class="fa fa-bars"  id="menu"></i>Menu</button>
+						
+				</div>
+
+
+
+				<div class="car" id="book" style="background-color: blue; border-radius: 30px; margin-left: 200px; width: 300px; height: 400px;">
+					
+						<button onclick="bet()" style=" margin-top: 20px; color: red; background-color: blue; border:none; margin-left: 250px; margin-top: 30px;" >	<i class="fa fa-times"></i></button><br>	
+						<ul>
+						<li><button onclick="hi()" class="motor" style="width: 70px; height: border-radius:5px; background-color:; color: white;border: none;border-bottom: solid red; margin-left: 20px; margin-top: 30px;" id="hi">	<i class="fa fa-car"></i></button> <b style="font-size: 30px;">	CAR </b></li><br>	
+
+					<li><button onclick=" motor()" class="motor" style="width: 70px; margin-left: 20px; border-radius:5px; height: 100px background-color:grey; color: white;border: none;border-bottom: solid red;" id="hello">	<i class="fa fa-truck">	</i></button><b style="font-size: 30px"> TRUCK</b></li><br>	
+
+					<li><button onclick="set()" class="motor" style="width: 70px; margin-left: 20px; border-radius:5px; height: 100px background-color:grey; color: white;border: none;border-bottom: solid red;" id="xup">	<i class="fa fa-motorcycle"></i></button><b style="font-size: 30px;"> BIKE</b></li><br>	
+
+					<li><button onclick="jin()" class="motor" style="width: 70px; margin-left: 20px; border-radius:5px; height: 100px background-color:grey; color: white;border: none;border-bottom: solid red;" id="fcbuk">	<i class="fa fa-bicycle"></i></button><b style="font-size: 30px;"> BICYCLE	</b></li>
+					</ul>		
+				</div>
+
+
+
+
+					<div class="picture" style="width: 300px;  height: 320px; border-radius: 30px; background-color: dodgerblue; margin-left: 150px;" id="pic">	
+						<center><h3 style="color: white;">CAR</h3></center>
+						<button onclick="jug()" class="btn btn-success" style="margin-left: 250px; color: red; background-color: dodgerblue; border: none;"><i class="fa fa-times"></i></button>
+
+						<center><input type="text" name="" disabled style=" border: none; margin: 20px"><br>
+						<button class="btn btn-success"><i class="fa fa-plus"></i></button>
+						<button class="btn btn-info"  style="background-color: blue">	<i class="fa fa-minus" >	</i></button>
+						<button class="btn btn-danger">	<i class="fa fa-trash" >	</i></button><br>	
+							<button class="btn btn-light" onclick="back()" style="border-radius: 100%;  margin-top: 50px; " id=""><i class="fa fa-plus"></i></button>
+
+
+					</div>
+
+					<div class="com" style="width: 300px;  height: 320px; border-radius: 30px; background-color: dodgerblue; margin-left: 150px;" id="com">	
+						<center><h3 style="color: white;">TRUCK</h3></center>
+						<button onclick="dot()" class="btn btn-success" style="margin-left: 250px; color: red; border:none; background-color: dodgerblue;"><i class="fa fa-times"></i></button>
+						<center><input type="number" name="" disabled style="padding: 10px 12px; border: none; margin: 20px;"><br>
+						<button class="btn btn-success"><i class="fa fa-plus" "></i></button>
+						<button class="btn btn-info"  style="background-color: blue">	<i class="fa fa-minus" >	</i></button>
+						<button class="btn btn-danger">	<i class="fa fa-trash" >	</i></button><br>
+						<button class="btn btn-light" onclick="NEXT()" style="border-radius: 100%; margin-top: 50px;" id=""><i class="fa fa-plus"></i></button>
+
+
+
+					</div>
+
+					<div class="load" style="width: 300px;  height: 320px; border-radius: 30px background-color:dodgerblue; margin-left: 150px" id="load">	
+						<center><h3 style="color: white;">MOTORCYCLE</h3></center>
+						<button onclick="doth()" class="btn btn-success" style="margin-left: 250px; border: none; color: red; background-color: dodgerblue;"><i class="fa fa-times"></i></button>
+						<center><input type="number" disabled name=""  style=" border: none; margin: 20px;"><br>
+						<button class="btn btn-success"><i class="fa fa-plus" ></i></button>
+						<button class="btn btn-info"  style="background-color: blue">	<i class="fa fa-minus">	</i></button>
+						<button class="btn btn-danger">	<i class="fa fa-trash" >	</i></button><br>
+						<button class="btn btn-light" onclick="calc()" style="border-radius: 100%; margin-top: 50px;" id=""><i class="fa fa-plus"></i></button>
+
+
+					</div>
+
+					<div class="let" style="width: 300px;  height: 320px; border-radius: 30px; background-color: dodgerblue; margin-left: 150px;" id="let">	
+						<center><h3 style="color: white;">BICYCLE</h3></center>
+						<button onclick="doti()" class="btn btn-success" style="margin-left:250px; color: red; border:none; background-color: dodgerblue "><i class="fa fa-times"></i></button>
+						<center><input type="number" name="" disabled  style="border: none; margin: 20px;"><br>
+						<button class="btn btn-success"><i class="fa fa-plus" ></i></button>
+						<button class="btn btn-info" style="background-color: blue">	<i class="fa fa-minus">	</i></button>
+						<button class="btn btn-danger">	<i class="fa fa-trash">	</i></button><br>
+						<button class="btn btn-light" onclick="select()" style="border-radius: 100%; margin-top: 50px;" id=""><i class="fa fa-plus"></i></button>
+
+
+					</div>
+					<div class="welcome" id="welcome" style="width: 800px; margin: 20px;">
+						<center><h1 style="color: white; margin-left: 300px;"> WELCOME TO COUNT APP</h1>
+						<center><h3 style="color: white; margin-left: 300px;">Enjoy your counting with this app</h3><br>
+						<button onclick="well()" style="border-radius: 20px; margin-top: 420px; margin-left: 900px; font-size: 20px; background-color: royalblue;color: white;"><i class="fa fa-plus"></i> </button>
+					</div>
+					
+		</div>
+		</div>
+		</div>
+
+
+</body>
+<script src="fecth/jquery.min.js"></script>
+
+<script>
+		function menu(){
+		$('#book').toggle(1000);
+		document.getElementById('book').style.display="none";
+		// document.getElementById('book').style.display="block";
+
+	}
+	function calln(){
+		$('#container').toggle(1000);
+		document.getElementById('container').style.display="block";
+	}
+	function hi(){
+		$('#pic').toggle(1000);
+		document.getElementById('pic').style.display="block";
+		document.getElementById('book').style.display="none";
+
+	}
+	function motor(){
+		$('#com').toggle(1000);
+		document.getElementById('com').style.display="block";
+		document.getElementById('book').style.display="none";
+
+	}
+
+	function set(){
+		$('#load').toggle(1000);
+		document.getElementById('load').style.display="block";
+		document.getElementById('book').style.display="none";
+	}
+	
+		function jin(){
+		$('#let').toggle(1000);
+		document.getElementById('let').style.display="block";
+		document.getElementById('book').style.display="none";
+	}
+	function back(){
+		$('#book').toggle(1000);
+		document.getElementById('pic').style.display="block";
+		document.getElementById('book').style.display="block";
+
+	}
+	function NEXT(){
+		$('#book').toggle(1000);
+		document.getElementById('book').style.display="block";
+		document.getElementById('com').style.display="block";
+	}
+	function calc(){
+		$('#book').toggle(1000);
+		document.getElementById('book').style.display="block";
+		document.getElementById('load').style.display="block";
+	}
+	function select(){
+		$('#book').toggle(1000);
+		document.getElementById('book').style.display="block";
+		document.getElementById('let').style.display="block";
+	}
+	function well(){
+		$('#set').toggle(1000);
+		document.getElementById('set').style.display="block";
+		document.getElementById('welcome').style.display="none"
+	}
+	function jug(){
+		$('#pic').toggle(1000);
+		document.getElementById('pic').style.display="block";
+		// document.getElementById('pic').style.display="none"
+	}
+	function doth(){
+		$('#load').toggle(1000);
+		document.getElementById('load').style.display="block";
+		// document.getElementById('pic').style.display="none"
+	}
+	function doti(){
+		$('#let').toggle(1000);
+		document.getElementById('let').style.display="none";
+		// document.getElementById('pic').style.display="none"
+	}
+	function dot(){
+		$('#com').toggle(1000);
+		document.getElementById('com').style.display="block";
+		// document.getElementById('pic').style.display="none"
+	}
+	function bet(){
+		$('#book').toggle(1000);
+		document.getElementById('book').style.display="none";
+		// document.getElementById('pic').style.display="none"
+	}
+	
+</script>
+
+</html>

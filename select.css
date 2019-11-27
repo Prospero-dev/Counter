@@ -1,0 +1,45 @@
+body{
+	background-color: green ! important;
+	width: 170px;
+}
+#input{
+	display: none;
+}
+.container{
+	display: none;
+}
+.motor{
+	font-size: 20px;
+	/*height: 150px;*/
+}
+.car{
+	display: none;
+	/*width: 1000px;*/
+	margin-top: 50px;
+}
+
+.com{
+	display: none;
+	margin-top: 50px;
+}
+#set{
+	display: none;
+}
+.picture{
+	margin-top:  20px;
+	display: none;		
+}
+
+/*input{
+	margin-top: -100px;
+}*/
+.load{
+	display: none;
+	background-color: dodgerblue;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+.let{
+	display: none;
+	margin-top: 20px;
+}
